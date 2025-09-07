@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div class="container row-cols-1 mt-5 text-center" id="login-form">
+       <div class="col-md-8 m-auto ">
+         <div class="card text-center px-4 py-5 shadow-lg">
+            <h1 class="mb-3">
+                Smart Login System
+            </h1>
+            <div class="mb-3 ">
+                <input type="text" class="form-control" id="clientName" placeholder="Enter your name" >
+            </div>
+            <div class="mb-3 ">
+                <input type="email" class="form-control" id="clientEmail" placeholder="Enter your email" >
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" id="clientPassword"
+                    placeholder="Enter your password">
+            </div>
+            <div class="Required-Message text-danger mb-2">All inputs is required</div>
+            <div class="success-Message  mb-2">Success</div>
+            <div class="mb-4 mt-3">
+                <button class="btn-login w-100 p-1" id="sign-up-btn">Sign Up</button>
+            </div>
+            <div class="sign-in-question mb-4">
+                <p class="text-white">Don't have an account?
+                    <a href="index.html" class="sign-in-btn text-white text-decoration-none">Signin</a>
+                </p>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+:root{
+    --main-color: #24353F;
+    --second-color: #17A2B8;
+    --text-color: #A8B6B6;
+    --accent-color: #FF6F61;
+    --font-family:sans-serif, 'Arial';
+    --border-color:#80bdff;
+}
+body{
+    background-color: var(--main-color);
+}
+.container .card{
+    background-color: var(--main-color);
+    h1{
+        color: var(--second-color);
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 2.5rem;
+    }
+}
+.container .card input{
+    background-color: transparent;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+}
+
+.container .card input::placeholder{
+    color: var(--text-color);
+}
+.btn-login button , #sign-up-btn  {
+    background-color: transparent;
+    color: var(--second-color);
+    border: 1px solid var(--second-color);
+    transition: 0.3s;
+}
+.btn-login button:hover , #sign-up-btn:hover{
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+#login-form .form-control:focus{
+    border: 1px solid var(--border-color);
+    outline: none;
+    box-shadow: none;
+}
+
+.sign-up-question , .sign-in-question {
+    font-family: "Titillium Web", sans-serif;
+}
+
+#login-form a:hover{
+    text-decoration: underline !important;
+}
+.Required-Message , .success-Message{
+    display: none;
+}
+.success-Message{
+    color: #28A743;
+}
+
+
+.logo{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color:white;
+    font-family: "Titillium Web", sans-serif;
+    cursor: pointer;
+}
+.message-welcome h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color:rgb(23, 162, 184)
+;
+    font-family: "Titillium Web", sans-serif;
+}
